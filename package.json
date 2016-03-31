@@ -52,5 +52,6 @@
     "ghooks": {
       "pre-commit": "npm run test:single && npm run check-coverage"
     }
-  }
+  },
+  "tonicExample": "var starWarsNames = require('newtondev-starwars-names'); console.log(starWarsNames.all); console.log(starWarsNames.random()); console.log(starWarsNames.random(3));"
 }
